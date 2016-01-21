@@ -1,0 +1,27 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<EditText
+    android:id="@+id/edt_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/edt_num"
+    />
+    <requestFocus></requestFocus>
+    <EditText
+        android:id="@+id/edt_num"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+<Button
+    android:id="@+id/btn_save"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/edt_num"
+    android:text="LOGIN"
+    android:layout_height="wrap_content" />
+
+</RelativeLayout>
